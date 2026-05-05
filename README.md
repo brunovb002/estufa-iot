@@ -146,10 +146,11 @@ estufa-iot/
 
 ## 👥 Integrantes
 
+| Nome | RM |
+|---|---|
 | Bruno Vinicius Barbosa | RM566366 |
 | Guilherme de Andrade Martini | RM560870 |
 | Raphael Gomes Mancera | RM562279 |
-
 ---
 
 ## 🏫 FIAP — 2026
