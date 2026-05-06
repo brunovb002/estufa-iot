@@ -8,60 +8,6 @@
         "env": []
     },
     {
-        "id": "cc92b5a434833abf",
-        "type": "telegram bot",
-        "botname": "IMREA Assistente",
-        "usernames": "",
-        "chatids": "",
-        "baseapiurl": "",
-        "testenvironment": false,
-        "updatemode": "polling",
-        "pollinterval": 300,
-        "usesocks": false,
-        "sockshost": "",
-        "socksprotocol": "socks5",
-        "socksport": 6667,
-        "socksusername": "anonymous",
-        "sockspassword": "",
-        "bothost": "",
-        "botpath": "",
-        "localbothost": "0.0.0.0",
-        "localbotport": 8443,
-        "publicbotport": 8443,
-        "privatekey": "",
-        "certificate": "",
-        "useselfsignedcertificate": false,
-        "sslterminated": false,
-        "verboselogging": false
-    },
-    {
-        "id": "40e3549cec811e56",
-        "type": "telegram bot",
-        "botname": "VitaMind",
-        "usernames": "",
-        "chatids": "",
-        "baseapiurl": "",
-        "testenvironment": false,
-        "updatemode": "polling",
-        "pollinterval": 300,
-        "usesocks": false,
-        "sockshost": "",
-        "socksprotocol": "socks5",
-        "socksport": 6667,
-        "socksusername": "anonymous",
-        "sockspassword": "",
-        "bothost": "",
-        "botpath": "",
-        "localbothost": "0.0.0.0",
-        "localbotport": 8443,
-        "publicbotport": 8443,
-        "privatekey": "",
-        "certificate": "",
-        "useselfsignedcertificate": false,
-        "sslterminated": false,
-        "verboselogging": false
-    },
-    {
         "id": "dashboard-tab",
         "type": "ui_tab",
         "name": "Estufa",
@@ -97,65 +43,20 @@
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
                 "edited": false
             },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-            },
             "themeState": {
-                "base-color": {
-                    "default": "#0094CE",
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#1bbfff",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "widget-textColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#0094ce",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-                }
+                "base-color": { "default": "#0094CE", "value": "#0094CE", "edited": false },
+                "page-titlebar-backgroundColor": { "value": "#0094CE", "edited": false },
+                "page-backgroundColor": { "value": "#fafafa", "edited": false },
+                "page-sidebar-backgroundColor": { "value": "#ffffff", "edited": false },
+                "group-textColor": { "value": "#1bbfff", "edited": false },
+                "group-borderColor": { "value": "#ffffff", "edited": false },
+                "group-backgroundColor": { "value": "#ffffff", "edited": false },
+                "widget-textColor": { "value": "#111111", "edited": false },
+                "widget-backgroundColor": { "value": "#0094ce", "edited": false },
+                "widget-borderColor": { "value": "#ffffff", "edited": false },
+                "base-font": { "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif" }
             },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
+            "angularTheme": { "primary": "indigo", "accents": "blue", "warn": "red", "background": "grey", "palette": "light" }
         },
         "site": {
             "name": "Node-RED Dashboard",
@@ -164,16 +65,7 @@
             "lockMenu": "false",
             "allowTempTheme": "true",
             "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 0,
-                "py": 0
-            }
+            "sizes": { "sx": 48, "sy": 48, "gx": 6, "gy": 6, "cx": 6, "cy": 6, "px": 0, "py": 0 }
         }
     },
     {
@@ -190,12 +82,8 @@
         "id": "ea185d55389da210",
         "type": "tls-config",
         "name": "",
-        "cert": "",
-        "key": "",
-        "ca": "",
-        "certname": "",
-        "keyname": "",
-        "caname": "",
+        "cert": "", "key": "", "ca": "",
+        "certname": "", "keyname": "", "caname": "",
         "servername": "",
         "verifyservercert": true,
         "alpnprotocol": ""
@@ -203,8 +91,8 @@
     {
         "id": "21ad0e827ef45094",
         "type": "mqtt-broker",
-        "name": "",
-        "broker": "db4d4cf9edc946d1a5188a316414e105.s1.eu.hivemq.cloud",
+        "name": "HiveMQ",
+        "broker": "SEU_CLUSTER.hivemq.cloud",
         "port": "8883",
         "tls": "ea185d55389da210",
         "clientid": "nodered-estufa",
@@ -214,21 +102,7 @@
         "keepalive": 60,
         "cleansession": true,
         "autoUnsubscribe": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthRetain": "false",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closeRetain": "false",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willRetain": "false",
-        "willPayload": "",
-        "willMsg": {},
+        "birthMsg": {}, "closeMsg": {}, "willMsg": {},
         "userProps": "",
         "sessionExpiry": ""
     },
@@ -241,18 +115,9 @@
         "qos": "0",
         "datatype": "auto-detect",
         "broker": "21ad0e827ef45094",
-        "nl": false,
-        "rap": false,
-        "inputs": 0,
-        "x": 410,
-        "y": 360,
-        "wires": [
-            [
-                "mysql-insert",
-                "gauge-temp",
-                "chart-temp"
-            ]
-        ]
+        "nl": false, "rap": false, "inputs": 0,
+        "x": 410, "y": 360,
+        "wires": [["mysql-insert", "gauge-temp", "chart-temp", "alert-temp"]]
     },
     {
         "id": "mqtt-umid",
@@ -263,18 +128,9 @@
         "qos": "0",
         "datatype": "auto-detect",
         "broker": "21ad0e827ef45094",
-        "nl": false,
-        "rap": false,
-        "inputs": 0,
-        "x": 360,
-        "y": 460,
-        "wires": [
-            [
-                "mysql-insert",
-                "gauge-umid",
-                "chart-umid"
-            ]
-        ]
+        "nl": false, "rap": false, "inputs": 0,
+        "x": 360, "y": 460,
+        "wires": [["mysql-insert", "gauge-umid", "chart-umid", "alert-umid"]]
     },
     {
         "id": "mqtt-lum",
@@ -285,18 +141,9 @@
         "qos": "0",
         "datatype": "auto-detect",
         "broker": "21ad0e827ef45094",
-        "nl": false,
-        "rap": false,
-        "inputs": 0,
-        "x": 410,
-        "y": 560,
-        "wires": [
-            [
-                "mysql-insert",
-                "gauge-lum",
-                "chart-lum"
-            ]
-        ]
+        "nl": false, "rap": false, "inputs": 0,
+        "x": 410, "y": 560,
+        "wires": [["mysql-insert", "gauge-lum", "chart-lum"]]
     },
     {
         "id": "mysql-insert",
@@ -305,18 +152,8 @@
         "name": "Formata SQL",
         "func": "var topic = msg.topic;\nvar value = parseFloat(msg.payload);\n\nif (!context.dados) {\n    context.dados = { temperatura: null, umidade: null, luminosidade: null };\n}\n\nif (topic === \"estufa/temperatura\") context.dados.temperatura = value;\nif (topic === \"estufa/umidade\") context.dados.umidade = value;\nif (topic === \"estufa/luminosidade\") context.dados.luminosidade = value;\n\nif (context.dados.temperatura !== null && \n    context.dados.umidade !== null && \n    context.dados.luminosidade !== null) {\n    \n    msg.topic = \"INSERT INTO leituras (temperatura, umidade, luminosidade) VALUES (\" +\n        context.dados.temperatura + \", \" +\n        context.dados.umidade + \", \" +\n        context.dados.luminosidade + \")\";\n    \n    context.dados = { temperatura: null, umidade: null, luminosidade: null };\n    return msg;\n}\n\nreturn null;",
         "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 760,
-        "y": 440,
-        "wires": [
-            [
-                "mysql-node"
-            ]
-        ]
+        "x": 760, "y": 440,
+        "wires": [["mysql-node"]]
     },
     {
         "id": "mysql-node",
@@ -324,11 +161,8 @@
         "z": "7a09ed4d7de03582",
         "mydb": "0206bf1fbd65495a",
         "name": "MySQL Estufa",
-        "x": 1080,
-        "y": 480,
-        "wires": [
-            []
-        ]
+        "x": 1080, "y": 480,
+        "wires": [[]]
     },
     {
         "id": "gauge-temp",
@@ -336,22 +170,14 @@
         "z": "7a09ed4d7de03582",
         "name": "Temperatura",
         "group": "dashboard-group",
-        "order": 1,
-        "width": 6,
-        "height": 4,
+        "order": 1, "width": 6, "height": 4,
         "gtype": "gage",
         "title": "Temperatura (°C)",
         "label": "°C",
         "format": "{{value}}",
-        "min": 0,
-        "max": 50,
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "x": 670,
-        "y": 300,
+        "min": 0, "max": 50,
+        "colors": ["#00b500", "#e6e600", "#ca3838"],
+        "x": 670, "y": 300,
         "wires": []
     },
     {
@@ -360,22 +186,14 @@
         "z": "7a09ed4d7de03582",
         "name": "Umidade",
         "group": "dashboard-group",
-        "order": 3,
-        "width": 6,
-        "height": 4,
+        "order": 3, "width": 6, "height": 4,
         "gtype": "gage",
         "title": "Umidade (%)",
         "label": "%",
         "format": "{{value}}",
-        "min": 0,
-        "max": 100,
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "x": 660,
-        "y": 560,
+        "min": 0, "max": 100,
+        "colors": ["#00b500", "#e6e600", "#ca3838"],
+        "x": 660, "y": 560,
         "wires": []
     },
     {
@@ -384,22 +202,14 @@
         "z": "7a09ed4d7de03582",
         "name": "Luminosidade",
         "group": "dashboard-group",
-        "order": 5,
-        "width": 6,
-        "height": 4,
+        "order": 5, "width": 6, "height": 4,
         "gtype": "gage",
         "title": "Luminosidade (%)",
         "label": "%",
         "format": "{{value}}",
-        "min": 0,
-        "max": 100,
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "x": 660,
-        "y": 660,
+        "min": 0, "max": 100,
+        "colors": ["#00b500", "#e6e600", "#ca3838"],
+        "x": 660, "y": 660,
         "wires": []
     },
     {
@@ -408,15 +218,9 @@
         "z": "7a09ed4d7de03582",
         "name": "A cada 5 min",
         "repeat": "300",
-        "crontab": "",
         "once": true,
-        "x": 460,
-        "y": 800,
-        "wires": [
-            [
-                "http-weather"
-            ]
-        ]
+        "x": 460, "y": 800,
+        "wires": [["http-weather"]]
     },
     {
         "id": "http-weather",
@@ -426,39 +230,18 @@
         "method": "GET",
         "ret": "obj",
         "url": "https://api.openweathermap.org/data/2.5/weather?q=Mogi das Cruzes,BR&appid=SUA_API_KEY_OPENWEATHERMAP&units=metric&lang=pt_br",
-        "x": 660,
-        "y": 800,
-        "wires": [
-            [
-                "format-weather"
-            ]
-        ]
+        "x": 660, "y": 800,
+        "wires": [["format-weather"]]
     },
     {
         "id": "format-weather",
         "type": "function",
         "z": "7a09ed4d7de03582",
         "name": "Formata Clima",
-        "func": "node.warn(JSON.stringify(msg.payload));\n\nif (!msg.payload.main) {\n  node.warn(\"API ainda não ativada: \" + msg.payload.message);\n  return null;\n}\n\nvar clima = {\n  temp_ext: msg.payload.main.temp,\n  umidade_ext: msg.payload.main.humidity,\n  descricao: msg.payload.weather[0].description\n};\n\nmsg.payload = clima.temp_ext;\nvar msg2 = { payload: clima.umidade_ext };\nvar msg3 = { payload: clima.descricao };\n\nreturn [msg, msg2, msg3];",
+        "func": "if (!msg.payload.main) {\n  node.warn(\"Erro na API: \" + msg.payload.message);\n  return null;\n}\n\nvar clima = {\n  temp_ext: msg.payload.main.temp,\n  umidade_ext: msg.payload.main.humidity,\n  descricao: msg.payload.weather[0].description\n};\n\nmsg.payload = clima.temp_ext;\nvar msg2 = { payload: clima.umidade_ext };\nvar msg3 = { payload: clima.descricao };\n\nreturn [msg, msg2, msg3];",
         "outputs": 3,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 860,
-        "y": 800,
-        "wires": [
-            [
-                "gauge-temp-ext"
-            ],
-            [
-                "gauge-umid-ext"
-            ],
-            [
-                "text-descricao"
-            ]
-        ]
+        "x": 860, "y": 800,
+        "wires": [["gauge-temp-ext"], ["gauge-umid-ext"], ["text-descricao"]]
     },
     {
         "id": "gauge-temp-ext",
@@ -466,26 +249,14 @@
         "z": "7a09ed4d7de03582",
         "name": "Temp Externa",
         "group": "dashboard-group",
-        "order": 2,
-        "width": 6,
-        "height": 4,
+        "order": 2, "width": 6, "height": 4,
         "gtype": "gage",
         "title": "Temperatura Externa (°C)",
         "label": "°C",
         "format": "{{value}}",
-        "min": 0,
-        "max": 50,
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 1140,
-        "y": 680,
+        "min": 0, "max": 50,
+        "colors": ["#00b500", "#e6e600", "#ca3838"],
+        "x": 1140, "y": 680,
         "wires": []
     },
     {
@@ -494,26 +265,14 @@
         "z": "7a09ed4d7de03582",
         "name": "Umidade Externa",
         "group": "dashboard-group",
-        "order": 4,
-        "width": 6,
-        "height": 4,
+        "order": 4, "width": 6, "height": 4,
         "gtype": "gage",
         "title": "Umidade Externa (%)",
         "label": "%",
         "format": "{{value}}",
-        "min": 0,
-        "max": 100,
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 1190,
-        "y": 780,
+        "min": 0, "max": 100,
+        "colors": ["#00b500", "#e6e600", "#ca3838"],
+        "x": 1190, "y": 780,
         "wires": []
     },
     {
@@ -521,13 +280,10 @@
         "type": "ui_text",
         "z": "7a09ed4d7de03582",
         "group": "dashboard-group",
-        "order": 8,
-        "width": 6,
-        "height": 1,
+        "order": 8, "width": 6, "height": 1,
         "name": "Descrição Clima",
-        "format": "{{value.descricao}}",
-        "x": 1100,
-        "y": 900,
+        "format": "{{value}}",
+        "x": 1100, "y": 900,
         "wires": []
     },
     {
@@ -536,43 +292,18 @@
         "z": "7a09ed4d7de03582",
         "name": "Gráfico Temperatura",
         "group": "dashboard-group",
-        "order": 6,
-        "width": "6",
-        "height": 4,
+        "order": 6, "width": "6", "height": 4,
         "label": "Temperatura ao longo do tempo",
         "chartType": "line",
-        "legend": "false",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
         "nodata": "Aguardando dados...",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "50",
-        "removeOlder": "1",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": "",
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
+        "ymin": "0", "ymax": "50",
+        "removeOlder": "1", "removeOlderUnit": "3600",
+        "colors": ["#1f77b4","#aec7e8","#ff7f0e","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5"],
         "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 240,
-        "y": 900,
-        "wires": [
-            []
-        ]
+        "x": 240, "y": 900,
+        "wires": [[]]
     },
     {
         "id": "chart-umid",
@@ -580,43 +311,18 @@
         "z": "7a09ed4d7de03582",
         "name": "Gráfico Umidade",
         "group": "dashboard-group",
-        "order": 7,
-        "width": "6",
-        "height": 4,
+        "order": 7, "width": "6", "height": 4,
         "label": "Umidade ao longo do tempo",
         "chartType": "line",
-        "legend": "false",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
         "nodata": "Aguardando dados...",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "100",
-        "removeOlder": "1",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": "",
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
+        "ymin": "0", "ymax": "100",
+        "removeOlder": "1", "removeOlderUnit": "3600",
+        "colors": ["#1f77b4","#aec7e8","#ff7f0e","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5"],
         "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 240,
-        "y": 1000,
-        "wires": [
-            []
-        ]
+        "x": 240, "y": 1000,
+        "wires": [[]]
     },
     {
         "id": "chart-lum",
@@ -624,72 +330,32 @@
         "z": "7a09ed4d7de03582",
         "name": "Gráfico Luminosidade",
         "group": "dashboard-group",
-        "order": 9,
-        "width": "6",
-        "height": 4,
+        "order": 9, "width": "6", "height": 4,
         "label": "Luminosidade ao longo do tempo",
         "chartType": "line",
-        "legend": "false",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
         "nodata": "Aguardando dados...",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "100",
-        "removeOlder": "1",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": "",
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
+        "ymin": "0", "ymax": "100",
+        "removeOlder": "1", "removeOlderUnit": "3600",
+        "colors": ["#1f77b4","#aec7e8","#ff7f0e","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5"],
         "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 240,
-        "y": 1100,
-        "wires": [
-            []
-        ]
+        "x": 240, "y": 1100,
+        "wires": [[]]
     },
     {
         "id": "inject-db",
         "type": "inject",
         "z": "7a09ed4d7de03582",
         "name": "A cada 10s",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
+        "props": [{"p": "payload"}, {"p": "topic", "vt": "str"}],
         "repeat": "10",
-        "crontab": "",
         "once": true,
-        "onceDelay": "",
         "topic": "SELECT * FROM leituras ORDER BY timestamp DESC LIMIT 10",
         "payload": "",
         "payloadType": "str",
-        "x": 510,
-        "y": 1060,
-        "wires": [
-            [
-                "query-db"
-            ]
-        ]
+        "x": 510, "y": 1060,
+        "wires": [["query-db"]]
     },
     {
         "id": "query-db",
@@ -697,13 +363,8 @@
         "z": "7a09ed4d7de03582",
         "mydb": "0206bf1fbd65495a",
         "name": "MySQL Estufa",
-        "x": 710,
-        "y": 1060,
-        "wires": [
-            [
-                "format-table"
-            ]
-        ]
+        "x": 710, "y": 1060,
+        "wires": [["format-table"]]
     },
     {
         "id": "format-table",
@@ -712,19 +373,8 @@
         "name": "Formata Tabela",
         "func": "msg.payload = msg.payload.map(row => {\n    var d = new Date(row.timestamp);\n    var data = d.toLocaleDateString('pt-BR');\n    var hora = d.toLocaleTimeString('pt-BR');\n    return {\n        Timestamp: data + ' ' + hora,\n        Temperatura: row.temperatura + '°C',\n        Umidade: row.umidade + '%',\n        Luminosidade: row.luminosidade + '%'\n    };\n});\nreturn msg;",
         "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 900,
-        "y": 1040,
-        "wires": [
-            [
-                "cf75391786fe6d33",
-                "ui-table"
-            ]
-        ]
+        "x": 900, "y": 1040,
+        "wires": [["ui-table"]]
     },
     {
         "id": "ui-table",
@@ -732,41 +382,59 @@
         "z": "7a09ed4d7de03582",
         "group": "dashboard-group",
         "name": "Últimas Leituras",
-        "order": 10,
-        "width": 12,
-        "height": "8",
-        "columns": [],
-        "outputs": 0,
-        "cts": false,
-        "x": 1220,
-        "y": 1040,
+        "order": 10, "width": 12, "height": "8",
+        "columns": [], "outputs": 0, "cts": false,
+        "x": 1220, "y": 1040,
         "wires": []
     },
     {
-        "id": "cf75391786fe6d33",
-        "type": "debug",
+        "id": "alert-temp",
+        "type": "function",
         "z": "7a09ed4d7de03582",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1100,
-        "y": 1140,
+        "name": "Alerta Temperatura",
+        "func": "var temp = parseFloat(msg.payload);\nif (temp > 35) {\n    msg.payload = true;\n} else {\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "x": 750, "y": 100,
+        "wires": [["led-temp"]]
+    },
+    {
+        "id": "alert-umid",
+        "type": "function",
+        "z": "7a09ed4d7de03582",
+        "name": "Alerta Umidade",
+        "func": "var umid = parseFloat(msg.payload);\nif (umid < 30) {\n    msg.payload = true;\n} else {\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "x": 790, "y": 180,
+        "wires": [["led-umid"]]
+    },
+    {
+        "id": "led-temp",
+        "type": "ui_led",
+        "z": "7a09ed4d7de03582",
+        "order": 11,
+        "group": "dashboard-group",
+        "width": 3, "height": 1,
+        "label": "⚠️ Temp Alta (>35°C)",
+        "colorForValue": [
+            {"color": "green", "value": "false", "valueType": "bool"},
+            {"color": "red", "value": "true", "valueType": "bool"}
+        ],
+        "x": 1010, "y": 100,
         "wires": []
     },
     {
-        "id": "70b83ac5cb918000",
-        "type": "global-config",
-        "env": [],
-        "modules": {
-            "node-red-contrib-telegrambot": "16.3.1",
-            "node-red-dashboard": "3.6.6",
-            "node-red-node-mysql": "3.0.0",
-            "node-red-node-ui-table": "0.4.5"
-        }
+        "id": "led-umid",
+        "type": "ui_led",
+        "z": "7a09ed4d7de03582",
+        "order": 12,
+        "group": "dashboard-group",
+        "width": 3, "height": 1,
+        "label": "⚠️ Umidade Baixa (<30%)",
+        "colorForValue": [
+            {"color": "green", "value": "false", "valueType": "bool"},
+            {"color": "red", "value": "true", "valueType": "bool"}
+        ],
+        "x": 1010, "y": 180,
+        "wires": []
     }
 ]
